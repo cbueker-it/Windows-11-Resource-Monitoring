@@ -4,9 +4,9 @@ Windows 11 lab using Task Manager and Resource Monitor to observe system activit
 
 **Resource Baseline**
 
-- Resource Monitor shows the Windows 11 system at a normal baseline before the test workload.
-- CPU usage is about 13%, while disk and network activity are at 0.
-- Memory usage is about 26%, providing a reference point for later comparison.
+- Resource Monitor establishes the system baseline before the test workload begins.
+- CPU usage is low at about 13%, showing the system is relatively idle.
+- This baseline provides a reference for comparing CPU usage during the Defender scan.
 
 ![Resource Baseline](images/01%20Resource%20Baseline.png)
 
