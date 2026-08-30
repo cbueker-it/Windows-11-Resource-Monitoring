@@ -61,6 +61,19 @@ This lab uses a controlled Microsoft Defender scan to create measurable system a
 
 ![Recovery Validation](images/06%20Recovery%20Validation.png)
 
+**Lessons Learned**
+- Performance troubleshooting should begin with a baseline so later activity can be compared against normal system behavior.
+- High CPU or disk usage is not automatically a problem; the process causing the activity must be identified and understood.
+- Task Manager is useful for quickly identifying resource changes, while Resource Monitor provides more detailed process information.
+- Controlled testing helps show how a known workload affects system resources and makes troubleshooting evidence easier to interpret.
+- Validation is necessary after the workload ends to confirm that resource usage returns toward the expected baseline.
+
+**Summary**
+
+This lab demonstrates a structured Windows 11 resource-monitoring process. I used Task Manager and Resource Monitor to establish a normal baseline before introducing a controlled Microsoft Defender workload. CPU and disk activity were observed during the scan, and the responsible process was identified. After the workload completed, I measured resource usage again and confirmed that the system returned toward its original baseline. The beginning and ending measurements were closely aligned, indicating that the system had settled back down after the workload finished.
+
+The objective of the lab was achieved by measuring system behavior before, during, and after the workload and using that evidence to explain the change in resource usage. This process is valuable in IT support and systems administration because technicians need observable and measurable facts before making changes, restarting services, escalating issues, or taking other corrective actions. Using a structured and methodical approach that can be documented and taught to new technicians helps reduce unnecessary changes, improves troubleshooting efficiency, and supports better technical decisions.
+
 **Navigation**
 
 [`Back to GitHub Profile`](https://www.github.com/cbueker-it)
